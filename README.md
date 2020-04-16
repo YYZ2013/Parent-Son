@@ -1,21 +1,9 @@
-# test
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Vue 组件间的传值
+### 父传子
+#### 1.props
+#### 2.provide inject 可跨组件 父---子孙
+#### 3.slot
+### 子传父
+#### 1.this.$emit( , )
+#### 2.callbaack
+#### 3.slot
